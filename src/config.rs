@@ -161,6 +161,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["175.178.225.161"];
+pub const API_SERVER : &[&str] = &["http://175.178.225.161:21114"];
 pub const PUBLIC_RS_PUB_KEY: &str = "07WFmQz+AZRdDQwT75kN1GoBNazjb7wryBb3RkWMyzg=";
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {Some(key) if !key.is_empty() => key,
   _ => PUBLIC_RS_PUB_KEY,
